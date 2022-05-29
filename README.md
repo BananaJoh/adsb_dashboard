@@ -16,9 +16,9 @@ Kivy-based map view visualizing aircraft ADS-B data retrieved from a dump1090-mu
 
 ## Additional Information
 * Created with Kivy 1.11.0 using Python 3.9.2
-* Adjust latitude, longitude, zoom level and dump1090 hostname at the top of main.py to your needs
+* Adjust latitude, longitude, zoom level and dump1090 hostname at the top as well as resolution at the bottom of main.py to your needs
 * With running X server: `python main.py`
-* Without running X server (e.g. on Raspberry Pi OS Lite): `startx /path/to/dashboard.sh`
+* Without running X server (e.g. on Raspberry Pi OS Lite): `startx /path/to/dashboard.sh` (you possibly need to update the path inside this script as well)
 * Autostart e.g. by appending the command to `/etc/rc.local` (ending with ` &` to start in background)
 
 ## References
